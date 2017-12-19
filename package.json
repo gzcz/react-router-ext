@@ -1,0 +1,12 @@
+{
+  "name": "react-router-ext",
+  "version": "1.0.0",
+  "description": "react-router2.8.1 fix bug",
+  "main": "lib/index",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "author": "chen.dahai",
+  "license": "ISC"
+}
