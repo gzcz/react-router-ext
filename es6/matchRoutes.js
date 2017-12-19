@@ -107,6 +107,11 @@ function matchRouteDeep(route, location, remainingPathname, paramNames, paramVal
     paramValues = [];
   }
 
+  if(null === remainingPathname && 0 === paramNames.length && 0 === paramValues.length){
+    var tmpError = new Error('cannot match any route')
+    callback(tmpError)
+  }
+
   // Only try to match the path if the route actually has a pattern, and if
   // we're not just searching for potential nested absolute paths.
   if (remainingPathname !== null && pattern) {
