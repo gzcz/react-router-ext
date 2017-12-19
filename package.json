@@ -7,6 +7,10 @@
     "doc": "docs",
     "lib": "lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdhjava/react-router-ext.git"
+  },
   "author": "chen.dahai",
   "license": "ISC"
 }
